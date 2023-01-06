@@ -1,0 +1,2 @@
+npm install electron --save-dev
+npx create-electron-app electron-editor
