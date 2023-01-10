@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<script src="./script.js"></script>
 <html>
   <head>
     <meta charset="UTF-8" />
@@ -6,7 +7,15 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <h1>💖 Hello World!</h1>
-    <p>Welcome to your Electron application.</p>
+    <div class="main">
+      <div class="bar">
+        <label>
+          <input id="fileOpenBtn" type="file" />
+          開く
+        </label>
+        <button onclick="save()" >保存</button>
+      </div>
+      <textarea id="memo"></textarea>
+    </div>
   </body>
 </html>
